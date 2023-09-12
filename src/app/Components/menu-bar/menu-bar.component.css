@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    margin-right: 0px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+img {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.nav-bar {
+    display: flex;
+    color: black;
+    list-style: none;
+    align-items: center;
+    margin-right: 5px;
+}
+
+li {
+    margin-right: 15px;
+    padding-bottom: 2px;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+/* isso é gambiarra mas é só pra ficar bonitinho */
+li:nth-child(5) {
+    border-bottom: 2px solid black;
+}
+
+.hr {
+    margin: 0px 0px;
+    height: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button:hover, img:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(63, 57, 57);
+}
