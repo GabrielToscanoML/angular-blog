@@ -13,4 +13,5 @@ export class BigCardComponent {
   description:string = "A step by step guide on how to manage multiple Front-End projects with a monorepo."
   authorName:string = "Rui Saraiva"
   authorProfession:string = "Front-End Developer"
+  authorPhoto:string = "../../../assets/big-card-author.png"
 }

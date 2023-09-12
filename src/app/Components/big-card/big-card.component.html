@@ -1,15 +1,19 @@
 <main>
-    <img src="" alt="">
-    <div>
+    <div class="left-side">
+        <img class="thumbnail" src="{{ imgPath }}" alt="Thumbnail">
+    </div>
+    <div class="right-side">
         <section class="top-section">
-            <p></p>
-            <h1></h1>
-            <h3></h3>
+            <p> <strong>{{ category }} </strong> <span>{{ createdAt }}</span> </p>
+            <h1>{{ title }}</h1>
+            <p> {{ description }} </p>
         </section>
         <section class="bottom-section">
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
+            <img class="authorPhoto" src="{{ authorPhoto }}" alt="">
+            <div class="authorInfo">
+                <h3 class="authorName"> {{ authorName }} </h3>
+                <p class="authorProfession"> {{ authorProfession }} </p>
+            </div>
         </section>
     </div>
 </main>
