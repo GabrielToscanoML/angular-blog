@@ -1,19 +1,13 @@
 <main>
-    <div class="left-side">
-        <img class="thumbnail" src="{{ smallCardInfo.imgPath }}" alt="Thumbnail">
-    </div>
-    <div class="right-side">
-        <section class="top-section">
-            <p> <strong>{{ smallCardInfo.category }} </strong> <span>{{ smallCardInfo.createdAt }}</span> </p>
-            <h1>{{ smallCardInfo.title }}</h1>
-            <p> {{ smallCardInfo.description }} </p>
-        </section>
-        <section class="bottom-section">
-            <img class="authorPhoto" src="{{ smallCardInfo.authorPhoto }}" alt="">
-            <div class="authorInfo">
-                <h3 class="authorName"> {{ smallCardInfo.authorName }} </h3>
-                <p class="authorProfession"> {{ smallCardInfo.authorProfession }} </p>
-            </div>
-        </section>
-    </div>
+    <img class="thumbnail" src="{{ smallCardInfo.imgPath }}" alt="Thumbnail">
+    <p> <strong>{{ smallCardInfo.category }} </strong> <span>{{ smallCardInfo.createdAt }}</span> </p>
+    <h1>{{ smallCardInfo.title }}</h1>
+    <p> {{ smallCardInfo.description }} </p>
+    <section class="bottom-section">
+        <img class="authorPhoto" src="{{ smallCardInfo.authorPhoto }}" alt="">
+        <div class="authorInfo">
+            <h3 class="authorName"> {{ smallCardInfo.authorName }} </h3>
+            <p class="authorProfession"> {{ smallCardInfo.authorProfession }} </p>
+        </div>
+    </section>
 </main>

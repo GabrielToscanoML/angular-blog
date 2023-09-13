@@ -1,0 +1,7 @@
+.small-cards-section {
+    max-width: 1350px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
